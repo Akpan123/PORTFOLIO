@@ -518,4 +518,213 @@ div.tab-contents ul li span{
 
 
 
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+    <script src="https://kit.fontawesome.com/a973db36d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="nav-logo">
+            <img src="https://cdn2.vectorstock.com/i/thumb-large/19/41/initial-pa-letter-logo-creative-typography-vector-35581941.jpg" alt="logo">
+        </div>
+        <nav class="nav-btn">
+            <!-- <ul > -->
+            <div class="nav-item"><a href="/home.html">HOME</a></div>
+            <div class="nav-item"><a href="/about.html">ABOUT</a></div>
+            <div class="nav-item"><a href="/blog.html">BLOG</a></div>
+            <div class="nav-item"><a href="/contact.html">CONTACT </a></div>
+            <!-- <i class="fa-solid fa-bars nav-icon" onclick="openMenu()"></i>
+            <i class="fa-solid fa-xmark nav-icon" onclick="closeMenu()"></i> -->
+            <!-- </ul> -->
+        </nav>
+    </section>
+
+        <section id="about">
+            <div class="about-img">
+                <img class="head-img" src="work-1.png" width:50px; height:90px; position:left alt="logo">
+            </div>
+            <div class="main">
+                <div class="blogcontainer">
+                    <h1 style ="
+                    font-size: 36px;">Blogs by Akshat</h1>
+                    <div class="blogitem">
+                        <h2> Learning web development </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas quae atque ad porro consequatur amet facilis id fuga modi assumenda in expedita, numquam consequuntur tenetur quis saepe magni odio.</p>
+                    </div>
+                    <div class="blogitem">
+                        <h2> Learning web development </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas quae atque ad porro consequatur amet facilis id fuga modi assumenda in expedita, numquam consequuntur tenetur quis saepe magni odio.</p>
+                    </div>
+                    <div class="blogitem">
+                        <h2> Learning web development </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas quae atque ad porro consequatur amet facilis id fuga modi assumenda in expedita, numquam consequuntur tenetur quis saepe magni odio.</p>
+                    </div>
+                    <div class="blogitem">
+                        <h2> Learning web development </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas quae atque ad porro consequatur amet facilis id fuga modi assumenda in expedita, numquam consequuntur tenetur quis saepe magni odio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section id="footer">
+        <div>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i><span> KIET,Delhi-NCR, Ghaziabad-Meerut Road
+                        Ghaziabad-201206</span></li>
+                <li><i class="fa-solid fa-phone"></i><span> +91 7302821512</span></li>
+                <li><i class="fa-solid fa-envelope"></i><span> santoshandom7922@gmail.com</span></li>
+                <li><i class="fa-brands fa-github"></i><span> Github</span></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="about-h2" style="text-align: center;">Connect with me</h1>
+            <ul>
+                <li><i class="fa-brands fa-whatsapp"></i><span>Whatsapp</span>
+                <li><i class="fa-brands fa-instagram"></i><span>Instagram</span> </li>
+                <li> <i class="fa-brands fa-linkedin"></i><span>Linkedin</span></li>
+            </ul>
+        </div>
+    </section>
+    <!-- <hr> -->
+    <!-- <h3 class="footer-h1" style="text-align: center;">Made with ❤️ By Akshat Pandey</h3> -->
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+    <script src="https://kit.fontawesome.com/a973db36d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="nav-logo">
+            <img src="https://cdn2.vectorstock.com/i/thumb-large/19/41/initial-pa-letter-logo-creative-typography-vector-35581941.jpg" alt="logo">
+        </div>
+        <nav class="nav-btn">
+            <!-- <ul > -->
+            <div class="nav-item"><a href="/home.html">HOME</a></div>
+            <div class="nav-item"><a href="/about.html">ABOUT</a></div>
+            <div class="nav-item"><a href="/blog.html">BLOG</a></div>
+            <div class="nav-item"><a href="/contact.html">CONTACT</a></div>
+            <!-- <i class="fa-solid fa-bars nav-icon" onclick="openMenu()"></i>
+            <i class="fa-solid fa-xmark nav-icon" onclick="closeMenu()"></i> -->
+            <!-- </ul> -->
+        </nav>
+    </section>
+
+    <div class="main">
+        <div class="contact form">
+            <h1>Contact me for work/general enquirey</h1>
+                <form name="submit-to-google-sheet">
+                    <div class="mb-3">
+                      <label for="Clientemail" class="form-label">Name</label>
+                      <input type="name" class="form-control" id="Clientemail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="Clientemail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email & Phone with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone </label>
+                      <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Clientemail" class="form-label">Enquirey</label>
+                        <input type="name" class="form-control" id="Clientemail" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="Isclient">
+                      <label class="form-check-label" for="Isclient">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+
+    <!-- <section id="about">
+        <div class="about-img">
+            <img class="head-img" src="work-2.png" width:50px; height:90px; position:left alt="logo">
+        </div>
+        <div class="about">
+            <h1 class="about-h1">About <span>Me</span></h1>
+            <h3 class="about-h2">Hello I'm Akshat Pandey</h3>
+            <p class="about-p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ex placeat obcaecati
+                suscipit modi
+                iure dolore. Modi accusantium dolore reiciendis atque! Magni velit maxime, fuga similique eius adipisci
+                tempore dolorem?</p>
+            <div class="about-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="footer">
+        <div>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i><span> KIET,Delhi-NCR, Ghaziabad-Meerut Road
+                        Ghaziabad-201206</span></li>
+                <li><i class="fa-solid fa-phone"></i><span> +91 7302821512</span></li>
+                <li><i class="fa-solid fa-envelope"></i><span> santoshandom7922@gmail.com</span></li>
+                <li><i class="fa-brands fa-github"></i><span> Github</span></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="about-h2" style="text-align: center;">Connect with me</h1>
+            <ul>
+                <li><i class="fa-brands fa-whatsapp"></i><span>Whatsapp</span>
+                <li><i class="fa-brands fa-instagram"></i><span>Instagram</span> </li>
+                <li> <i class="fa-brands fa-linkedin"></i><span>Linkedin</span></li>
+            </ul>
+        </div>
+    </section>
+    <!-- <hr> -->
+    <!-- <h3 class="footer-h1" style="text-align: center;">Made with ❤️ By Akshat Pandey</h3> -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxn1x9gvkmWAzoMu6B2J9t1yBwwnQrQ9_bzy3FbExVaXzdirUUhWS5NGZEq5GfaMkRE3Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
